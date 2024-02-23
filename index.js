@@ -39,8 +39,6 @@ function nein()
     xstring=x+xstring;
     ystring=y+ystring;
 
-   
-    
     root.style.setProperty('--posX', xstring);
     root.style.setProperty('--posY', ystring);
 }
