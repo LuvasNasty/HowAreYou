@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="de">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
         <script language="javascript" type="text/javascript" src="index.js" ></script>
     </head>
 
-    <!-- do to: bei Ja bild einfügen und Form wegbringen -->
+    <!-- do to: bild bessere resolution um zum laden -->
 
     <body>
         <div class="center">
@@ -20,17 +20,17 @@
                 <div class="row">
                     <form action="auswahl" method="post">
                             <div class="zelle">
-                                <input type="button" name="zustimmen" value="ja" onclick="change()">
+                                <input type="button" name="zustimmen" value="ja" onclick="ja()">
                             </div>
 
                             <div class="zelle" id="random">
-                                <input type="button" name="ablehnen" value="Nein" onclick="random()">
+                                <input type="button" name="ablehnen" value="Nein" onclick="nein()">
                             </div>
                     </form>
                 </div>
             </div>
             <div align="center" class="daumenhoch">
-                <img src="Bilder/thumbsUP.png" alt="" width="200vw" height="200vh" >
+                <img src="" id="wahl" width="200vw" height="200vh">
             </div>
         </div>
         
