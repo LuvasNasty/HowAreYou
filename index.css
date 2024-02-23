@@ -30,7 +30,7 @@ form{
 
 .headline{
     text-align: center;
-    font-size:10vw;
+    font-size:13vw;
     font-weight: bolder;
     padding: 7vh 0;
     text-shadow: 0px 0px 10px rgb(255, 255, 255);
@@ -94,7 +94,6 @@ input[type=button]{
   text-transform: none;
   transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
   user-select: none;
-  -webkit-user-select: none;
   touch-action: manipulation;
   width: auto;
   will-change: transform,opacity;
@@ -138,6 +137,6 @@ input[type=button]:disabled {
 
 @media screen and (min-width: 1000px) {
   .headline{
-    font-size:3vw;
+    font-size:5vw;
   }
 }
