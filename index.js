@@ -23,10 +23,10 @@ function random()
     do{
         y=0;
         ystring="%";
-        y= Math.random()*120;
+        y= Math.random()*100;
         y=Math.floor(y);
-        y=y-80;
-    }while(y<-80||y>35);
+        y=y-65;
+    }while(y<-60||y>35);
 
     xstring=x+xstring;
     ystring=y+ystring;
