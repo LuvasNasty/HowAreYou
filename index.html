@@ -1,0 +1,38 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>How are you?</title>
+
+        <link rel="stylesheet" href="index.css">
+        <script language="javascript" type="text/javascript" src="index.js" ></script>
+    </head>
+
+    <!-- do to: bei Ja bild einfügen und Form wegbringen -->
+
+    <body>
+        <div class="center">
+            <div id="head" class="headline">
+                <p>Geht's Dir gut?</p>
+            </div>
+    
+            <div class="table">
+                <div class="row">
+                    <form action="auswahl" method="post">
+                            <div class="zelle">
+                                <input type="button" name="zustimmen" value="ja" onclick="change()">
+                            </div>
+
+                            <div class="zelle" id="random">
+                                <input type="button" name="ablehnen" value="Nein" onclick="random()">
+                            </div>
+                    </form>
+                </div>
+            </div>
+            <div align="center" class="daumenhoch">
+                <img src="Bilder/thumbsUP.png" alt="" width="200vw" height="200vh" >
+            </div>
+        </div>
+        
+    </body>
+</html>
