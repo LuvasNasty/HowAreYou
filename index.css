@@ -30,7 +30,7 @@ form{
 
 .headline{
     text-align: center;
-    font-size:13vw;
+    font-size:10vw;
     font-weight: bolder;
     padding: 7vh 0;
     text-shadow: 0px 0px 10px rgb(255, 255, 255);
@@ -136,9 +136,8 @@ input[type=button]:disabled {
   box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
 }
 
-
 @media screen and (min-width: 1000px) {
   .headline{
-    font-size:5vw;
+    font-size:3vw;
   }
 }
