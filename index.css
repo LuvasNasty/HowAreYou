@@ -5,6 +5,8 @@
   --enable: hidden;
 }
 
+
+
 body{
     margin: 0px;
     background-image: url('Bilder/background.jpg');
@@ -30,7 +32,7 @@ form{
 
 .headline{
     text-align: center;
-    font-size:9vw;
+    font-size:13vw;
     font-weight: bolder;
     padding: 7vh 0;
     text-shadow: 0px 0px 10px rgb(255, 255, 255);
@@ -59,18 +61,13 @@ form{
 
 .daumenhoch{
   visibility: var(--enable);
-
 }
-
-
 
 #random{
   position: relative;
   top:var(--posX);
   left:var(--posY);
 }
-
-
 
 /* CSS */
 input[type=button]{
@@ -139,4 +136,11 @@ input[type=button]:not(:disabled):active {
 
 input[type=button]:disabled {
   box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+
+@media screen and (min-width: 1000px) {
+  .headline{
+    font-size:5vw;
+  }
 }
