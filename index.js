@@ -1,24 +1,32 @@
 var root=document.querySelector(':root');
-
 let textchange;
-textchange="Yippie dir geht es gut!";
-function change()
+
+function ja()
 {
+    textchange="Yippie dir geht es gut!";
+    document.getElementById("wahl").src= "Bilder/thumbsUP.png"
     document.getElementById('head').innerHTML= textchange;
     root.style.setProperty('--enable', 'visible');
     root.style.setProperty('--disable', 'hidden');
 }
 
 let x,xstring,y,ystring;
-function random()
+function nein()
 {
+    textchange="Nein ist keine Option... &#x1f62c;";
+    document.getElementById('head').innerHTML= textchange;
+
+    root.style.setProperty('--enable', 'visible');
+
+    document.getElementById("wahl").src= "Bilder/128x128Ultramad.webp"
+
     do{
         x=0;
         xstring="vh";
         x= Math.random()*100;
         x=Math.floor(x);
         x=x-60;
-    }while(x<-40||x>40);
+    }while(x<-40||x>35);
 
     do{
         y=0;
@@ -31,6 +39,7 @@ function random()
     xstring=x+xstring;
     ystring=y+ystring;
 
+   
     
     root.style.setProperty('--posX', xstring);
     root.style.setProperty('--posY', ystring);
